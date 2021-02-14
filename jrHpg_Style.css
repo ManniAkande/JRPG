@@ -11,12 +11,12 @@ body {
 
 @font-face {
 	font-family: bubble-font;
-	src: url("Bubble_Pixel.TTF");
+	src: url("Bubble_Pixel.ttf");
 }
 
 @font-face {
 	font-family: eight-bit;
-	src: url("Eight_Bit_Wonder.TTF");
+	src: url("Eight_Bit_Wonder.ttf");
 }
 
 @font-face {
@@ -114,6 +114,7 @@ nav a:hover {
 	position: absolute;
 	top: 9%;
 	right: 10%;
+	transform: rotate(-3deg);
 }
 
 .container h3 {
