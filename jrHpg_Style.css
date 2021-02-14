@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	height: 100%;
+}
+body {
+	margin: 0 0;
+	padding: 0 0;
+	background: #F9EEFC;
+}
+
+@font-face {
+	font-family: bubble-font;
+	src: url("fonts/Bubble_Pixel.TTF");
+}
+
+@font-face {
+	font-family: eight-bit;
+	src: url("fonts/Eight_Bit_Wonder.TTF");
+}
+
+@font-face {
+	font-family: rainy-hearts;
+	src: url("fonts/rainyhearts.ttf");
+}
+
+h1, h2 {
+	font-family: bubble-font;
+	color: #F96900;
+	font-size: 4vh;
+	text-align: center;
+}
+
+h3, h4 {
+	font-family: rainy-hearts;
+}
+
+p, li {
+	font-family: rainy-hearts;
+	font-weight: 500;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+nav {
+	background: black;
+	color: white;
+	font-size: 20px;
+	width: 10%;
+	height: 100%;
+	padding: 10px;
+	float: left;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+nav li:first-child {
+	padding: 10px 0;
+	margin-bottom: 70px;
+	font-size: 4vh;
+}
+
+
+nav li {
+	margin-bottom: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #F2C14E;
+	font-size: 3vh;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.card {
+	background: white;
+	margin-left: 180px;
+	padding: 2px 0;
+	width: 550px;
+	-webkit-box-shadow: -7px 5px 15px -1px rgba(0,0,0,0.33); 
+	box-shadow: -7px 5px 15px -1px rgba(0,0,0,0.33);
+	transform: rotate(2deg);
+}
+
+.container {
+	width: 80%;
+	float: left;
+	padding: 20px 45px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.floatp {
+	float: left;
+	width: 40%;
+	margin-bottom: 0px;
+}
+
+.container img {
+	float: left;
+	width: 40%;
+	position: absolute;
+	top: 9%;
+	right: 10%;
+}
+
+.container h3 {
+	padding: 0 180px;
+	font-size: 22px;
+}
+
+.container h4 {
+	padding: 0 10px;
+	font-size: 22px;
+}
+
+.sub {
+	margin: 80px; margin-bottom: 250px;
+	
+	padding: 100px 10px;
+	
+	-webkit-box-shadow: 0px 9px 13px 15px rgba(0,0,0,0.05); 
+box-shadow: 0px 9px 13px 15px rgba(0,0,0,0.05);
+}
+
+.sub:first-child {
+	margin-top: 0; padding-top: 40px;;
+}
+
+.sub p {
+	font-size: 20px;
+	padding: 0 180px;
+}
+
+.container ol {
+	font-size: 22px;
+}
