@@ -11,17 +11,17 @@ body {
 
 @font-face {
 	font-family: bubble-font;
-	src: url("fonts/Bubble_Pixel.TTF");
+	src: url("Bubble_Pixel.TTF");
 }
 
 @font-face {
 	font-family: eight-bit;
-	src: url("fonts/Eight_Bit_Wonder.TTF");
+	src: url("Eight_Bit_Wonder.TTF");
 }
 
 @font-face {
 	font-family: rainy-hearts;
-	src: url("fonts/rainyhearts.ttf");
+	src: url("rainyhearts.ttf");
 }
 
 h1, h2 {
